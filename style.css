@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #1D1D23;
+}
+.container{
+    width: 100%;
+    height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     color: #fff;
+     /* border: 2px solid red; */
+}
+
+.div-1{
+    /* border: 2px solid orange; */
+    text-align: center;
+    width: 50%;
+}
+.div-1 h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.big-text p{
+    font-size: 25px;
+}
+.timer-ended{
+    background-color: #F0F757;
+}
+
+/* ******************* set time ********************* */
+.set-time{
+ /* border: 2px solid #fff; */
+ padding: 10px 5px;
+ display: flex;
+ justify-content: space-evenly;
+ width: 70%;
+ height: 80px;
+ border-radius: 10px;
+ background-color: #34344A;
+ margin: 0 auto;
+}
+.set-time div{
+    /* border: 2px solid green; */
+    font-size: 15px;
+    margin: auto 0;
+}
+.time p{
+    font-size: 23px;
+}
+.time input[type = "number"]{
+    width: 55px;
+    height: 30px;
+    border: none;
+    font-size: 23px;
+    background-color: #34344A;
+    border-bottom: 2px solid #fff;
+    color: white;
+}
+
+.time input::placeholder{
+    color: #fff;
+}
+.time input:focus::placeholder {
+    color: transparent;
+  }
+
+.time input:focus{
+    outline: none;
+}
+.btn{
+    width: 80px;
+    background-color: #F0F757;
+    border-radius: 23px;
+    color: #000;
+    padding: 5px 5px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn-1{
+    width: 80px;
+    background-color: #34344A;
+    border-radius: 23px;
+    color: #fff;
+    padding: 5px 5px;
+}
+.btn-1:hover{
+    cursor: pointer;
+}
+
+/* ******************** styling of div-2 *******************/
+.div-2{
+    margin-top: 20px;
+    text-align: center;
+    width: 50%;
+    /* border: 2px solid green; */
+
+}
+.div-2 h4{
+    /* border: 2px solid red; */
+    background-color: #39393E;
+    width: 250px;
+    padding: 10px 5px;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+.div-2 .set-time{
+    margin: 30px auto;
+}
+.time span{
+    font-size: 25px;
+}
