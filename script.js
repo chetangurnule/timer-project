@@ -49,6 +49,7 @@ class Timer {
   
       displayTimerEnd() {
         // Update the display when the timer reaches zero and play an audio alert
+          const alertAudio = document.getElementById('alert-audio');
         const timerElement = document.getElementById(this.timerId);
         let div2 = document.querySelector(".div-2");
         if (timerElement) {
@@ -64,6 +65,7 @@ class Timer {
               <p>Stop</p>
           </div>`;
             div2.append(timerElement);
+            alertAudio.play();
         }
       }
 }
